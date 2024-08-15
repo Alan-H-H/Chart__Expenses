@@ -1,0 +1,48 @@
+body{
+    margin: 10em auto;
+    background-color: hsl(27, 66%, 92%)
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    background-color: hsl(27, 66%, 92%)
+}
+.myBalance{
+    margin: 0 auto;
+    width: 40%;
+    padding: 4em 0em;
+}
+.one{
+    align-self: center;
+    background-color: white;
+    padding: 1em;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 2em;
+}
+.hovered{
+    opacity: 0.5;
+}
+#App{
+    margin: 10em auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    transform: rotateX(180deg);
+    margin-bottom: 1em;
+}
+.charts{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3em;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 1em;
+}
+.element{
+    transform: rotateX(180deg);
+    position: absolute;
+    bottom: 8em;
+}
+
