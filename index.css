@@ -1,6 +1,7 @@
 body{
     margin: 10em auto;
-    background-color: hsl(27, 66%, 92%)
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
 }
 .container{
     justify-content: center;
@@ -12,17 +13,43 @@ body{
     margin: 0 auto;
     width: 40%;
     padding: 4em 0em;
+    background-color: hsl(10, 79%, 65%);
+    text-align: left;
+    padding: 1em 1em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+.myBalance h1{
+    color: white;
 }
 .one{
     align-self: center;
     background-color: white;
+    color: hsl(25, 47%, 15%);
     padding: 1em;
     width: 40%;
     margin: 0 auto;
     border-radius: 2em;
 }
+h1{
+    text-align: left;
+    margin-left: 3em;
+}
 .hovered{
     opacity: 0.5;
+}
+.hover-info{
+    text-align: center;
+    justify-content: center;
+    margin: 6.5em auto;
+    color: white;
+    background-color: hsl(25, 47%, 15%);
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+}
+.element{
+    color: hsl(28, 10%, 53%);
 }
 #App{
     margin: 10em auto;
@@ -39,10 +66,65 @@ body{
     padding-bottom: 3em;
     background-color: hsl(10, 79%, 65%);
     border-radius: 1em;
+    width: 50px;
 }
 .element{
     transform: rotateX(180deg);
     position: absolute;
     bottom: 8em;
+}
+.thismonth{
+    width: 50%;
+    float: left;
+}
+.lastmonth{
+    float: right;
+    width: 50%;
+}
+.results p{
+    text-align: left;
+    margin-left: 5em;
+    color: hsl(28, 10%, 53%);
+}
+@media (max-width: 700px){
+    .myBalance{
+        width: 60%;
+    }
+    .one{
+        width: 60%;
+    }
+    #App{
+        margin: 4em auto;
+        margin-bottom: 1em;
+        width: 100px;
+    }
+    h1{
+        text-align: center;
+        margin-left: 0em;
+    }
+    .charts{
+        padding-bottom: 8em;
+        width: 35px;
+    }
+    .element{
+        bottom: 13em;
+    }
+    .results{
+        width: 100%;
+    }
+    .hover-info{
+        margin: 12em auto;
+        padding: 5px;
+        width: 40px;
+    }
+    .chartscontainer{
+        width: 18%;
+        padding: 0.15em;
+    }
+    .results p{
+        text-align: center;
+        margin-left: 0em;
+        color: hsl(28, 10%, 53%);
+    }
 }
 
