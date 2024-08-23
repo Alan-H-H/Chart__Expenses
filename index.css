@@ -87,6 +87,9 @@ h1{
     color: hsl(28, 10%, 53%);
 }
 @media (max-width: 700px){
+    body{
+    margin: 2em auto;
+    }
     .myBalance{
         width: 80%;
     }
